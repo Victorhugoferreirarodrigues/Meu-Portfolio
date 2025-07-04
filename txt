@@ -1,0 +1,88 @@
+    <div class="banner">
+        <video autoplay muted loop id="v1">
+            <source src="..\videos\v1.mp4" type="video/mp4">
+        </video> 
+    
+        <div class="content">
+            <h1>Victor Hugo Ferreira Rodrigues</h1>
+            <h2>Profissional de TI.</h2>
+            <hr>
+            <p>
+                Sejam bem vindos ao meu portifólio!! <br>
+                Meu nome é Victor Hugo Ferreira Rodrigues, sou profissional de TI a Sete anos e sou cursando do curso de Redes de computadores, do campus   IFRJ-Arraial do Cabo.
+            </p>
+    
+            <a href="..\scripts\pg2.html">Quem sou?</a>
+            <a href="..\scripts\pg3.html">Capacitações</a>
+            <a href="..\scripts\pg6.html">Redes Sociais</a>
+            <a href="..\scripts\pg5.html">Histórico Laboral</a>
+            <a href="..\scripts\pg4.html">Histórico Acadêmico</a>
+        </div>  
+    </div>
+
+--------------------------------------------------------------------------------
+
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100;
+    z-index: 0;
+}
+
+.banner .content{
+    position: relative;
+    z-index: 1;
+    max-width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1{
+    color:rgb(172, 172, 172);
+    font-size: 60px;
+}
+
+h2{
+    color:rgb(172, 172, 172);
+    font-size: 40px;
+}
+
+hr{
+color:rgb(172, 172, 172);
+}
+
+p{
+    color:rgb(172, 172, 172);
+    font-size: 25px;
+}
+
+a{
+    color:rgb(172,172,172);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+

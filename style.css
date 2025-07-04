@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(to right, rgba(0,0,0, 0.3), transparent);
+}
+
+section div.background-section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+section div.background-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    filter: brightness(0.8);
+    
+}
+
+section div.box{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2%;
+}
+
+section div.caixa{
+    float: right;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    align-items: right;
+    justify-content: right;
+    padding: 4%;
+    text-align: right;
+    margin-top: 500px;
+}
+
+section div#b2{
+    width: 50%;
+    height: 100%;
+}
+
+section div#b3{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+    align-items: center;
+}
+
+/*linhas*/
+
+section div.box h1{
+    color:rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+section div.box h2{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+section div.caixa p{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    
+}
+section div.caixa a{
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    z-index: 1;  
+    margin-left: 900px;
+}
+
+section div.box p{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+section div.box a{
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    margin-left: 400px;
+    z-index: 1;  
+}
+
+
+
+/*pages*/
+/*pg2*/
+
+section div#b4{
+    width: 50%;
+    height: 100%;
+}
+
+section div#b5{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+}
+
+/*pg3*/
+
+section div#b6{
+    width: 50%;
+    height: 100%;
+}
+
+section div#b7{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+}
+
+section div.box li{
+    width: 100%;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    margin-right: 370px;
+    line-height: 110px;
+}
+
+/*pg4*/
+
+section div#b8{
+    width: 50%;
+    height: 100%;
+}
+
+section div#b9{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+}
+
+/*pg5*/
+
+section div#b10{
+    width: 50%;
+    height: 100%;
+}
+
+section div#b11{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+
