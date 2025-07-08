@@ -137,7 +137,6 @@ section div.box li{
     section div#b4{
     width: 50%;
     color:rgb(255, 255, 255);
-    font-size: 26px;
     margin-top: 100px;
     line-height: 80px;
 }
@@ -145,14 +144,13 @@ section div.box li{
     section div#b5{
     width: 50%;
     color:rgb(255, 255, 255);
-    font-size: 26px;
     margin-top: 70px;
     line-height: 80px;
 }
 
-
-
-@media (min-width: 1200px) and (max-width: 1309px) {
+/*/////////////////responsividade///////////////*/
+/*/////////////////////Grandes///////////////////*/
+@media (min-width: 1024px) and (max-width: 1366px) {
     
     /*Título*/
     section div.box h1{
@@ -192,7 +190,7 @@ section div.box li{
     section div.box a{
         color:rgb(255, 255, 255);
         font-size: 16px;
-        margin-left: 125px;
+        margin-left: 100px;
         text-align: center;
     }
 
@@ -207,5 +205,303 @@ section div.box li{
         font-size: 25px;
         margin-bottom: 50px;
     }
+
+    /*pg3*/
+    section div.box li{
+        width: 100%;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        line-height: 80px;
+    }
    
+    /*pg4*/
+    section div#b4{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+    /*pg5*/
+        section div#b5{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+
+}
+
+
+/*/////////////////////Médias1///////////////////*/
+@media (min-width: 800px) and (max-width: 960px) {
+    
+     /*caixa do título*/
+    section div#b1{
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+
+    /*Título*/
+    section div.box h1{
+        color:rgb(255, 255, 255);
+        font-size: 43px;
+    }
+
+    /*Subtítulo*/
+    section div.box h2{
+        color:rgb(255, 123, 0);
+        font-size: 25px;
+    }
+
+     /*caixa do texto principal*/
+    section div#b2{
+        width: 66%;
+        height: 100%;
+    }
+
+    /*texto principal*/
+    section div.box p{
+        color:rgb(255, 255, 255);
+        font-size: 22px;
+    }
+
+    /*caixa da barra inferior*/
+    section div#b3{
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    /*texto da barra inferior*/
+    section div.box a{
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    /*redes sociais*/
+    section div.caixa{
+        margin-top: 150px;
+    }
+    section div.caixa a{
+        font-size: 18px;    
+    }
+    section div.caixa p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    /*pg3*/
+    section div.box li{
+        width: 100%;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        line-height: 80px;
+    }
+   
+    /*pg4*/
+    section div#b4{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+    /*pg5*/
+        section div#b5{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+
+}
+
+/*/////////////////////Médias2///////////////////*/
+@media (min-width: 580px) and (max-width: 640px) {
+    
+
+     /*caixa do título*/
+    section div#b1{
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+
+    /*Título*/
+    section div.box h1{
+        color:rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    /*Subtítulo*/
+    section div.box h2{
+        color:rgb(255, 123, 0);
+        font-size: 20px;
+    }
+
+     /*caixa do texto principal*/
+    section div#b2{
+        margin-top: 100px;
+        width: 66%;
+        height: 100%;
+    }
+
+    /*texto principal*/
+    section div.box p{
+        color:rgb(255, 255, 255);
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    /*caixa da barra inferior*/
+    section div#b3{
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgb(0, 0, 0, 0.5);
+        
+    }
+
+    /*texto da barra inferior*/
+    section div.box a{
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    /*redes sociais*/
+    section div.caixa{
+        margin-top: 180px;
+    }
+    section div.caixa a{
+        font-size: 18px;    
+    }
+    section div.caixa p{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    /*pg3*/
+    section div.box li{
+        width: 100%;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        line-height: 50px;
+    }
+   
+    /*pg4*/
+    section div#b4{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+    /*pg5*/
+        section div#b5{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+
+}
+
+
+/*/////////////////////Pequenas///////////////////*/
+@media (min-width: 320px) and (max-width: 580px) {
+    
+    
+    /*caixa do título*/
+    section div#b1{
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+    /*Título*/
+    section div.box h1{
+        color:rgb(255, 255, 255);
+        font-size: 35px;
+    }
+
+    /*Subtítulo*/
+    section div.box h2{
+        color:rgb(255, 123, 0);
+        font-size: 17px;
+    }
+
+     /*caixa do texto principal*/
+    section div#b2{
+        width: 80%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    /*texto principal*/
+    section div.box p{
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+    }
+
+    /*caixa da barra inferior*/
+    section div#b3{
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin-top: 90px;
+    }
+
+    /*texto da barra inferior*/
+    section div.box a{
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    /*redes sociais*/
+    section div.caixa{
+        margin-top: 250px;
+    }
+    section div.caixa a{
+        font-size: 15px;    
+    }
+    section div.caixa p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    /*pg3*/
+    section div.box li{
+        width: 100%;
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        line-height: 50px;
+    }
+   
+    /*pg4*/
+    section div#b4{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+    /*pg5*/
+        section div#b5{
+        width: 50%;
+        color:rgb(255, 255, 255);
+        margin-top: 90px;
+        line-height: 80px;
+    }
+
 }
