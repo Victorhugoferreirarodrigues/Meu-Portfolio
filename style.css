@@ -133,6 +133,13 @@ section div.box li{
     line-height: 80px;
 }
 
+section div#b2 a{
+    color:rgb(255, 123, 0);
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
 /*pg4*/
     section div#b4{
     width: 50%;
@@ -212,6 +219,13 @@ section div.box li{
         color:rgb(255, 255, 255);
         font-size: 20px;
         line-height: 80px;
+    }
+
+    section div#b2 a{
+    color:rgb(255, 123, 0);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
     }
    
     /*pg4*/
@@ -302,6 +316,13 @@ section div.box li{
         color:rgb(255, 255, 255);
         font-size: 20px;
         line-height: 80px;
+    }
+
+    section div#b2 a{
+    color:rgb(255, 123, 0);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
     }
    
     /*pg4*/
@@ -396,6 +417,13 @@ section div.box li{
         font-size: 20px;
         line-height: 50px;
     }
+
+    section div#b2 a{
+    color:rgb(255, 123, 0);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    }
    
     /*pg4*/
     section div#b4{
@@ -487,6 +515,13 @@ section div.box li{
         color:rgb(255, 255, 255);
         font-size: 16px;
         line-height: 50px;
+    }
+
+    section div#b2 a{
+    color:rgb(255, 123, 0);
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
     }
    
     /*pg4*/
